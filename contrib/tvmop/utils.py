@@ -51,3 +51,6 @@ def reduce_axes(X, axes, reducer, atype=None):
                                                    if atype else X[get_index(idx, ridx)],
                                                    axis=ridx), name='ret')
     return ret
+
+def newFunc():
+	return {"greeting":"Hello"}
